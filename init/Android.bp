@@ -1,0 +1,18 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "fstab.pc",
+    src: "etc/fstab.pc",
+    vendor: true,
+    ramdisk_available: true,
+}
+
+prebuilt_etc {
+    name: "init.pc.rc",
+    src: "etc/init.pc.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
